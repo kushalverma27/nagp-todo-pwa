@@ -1,0 +1,10 @@
+<div class="container-todo">
+<app-splash-screen *ngIf="display"></app-splash-screen>
+<app-todo-item 
+  *ngFor="let todo of todos" 
+  [todo]="todo"
+  (deleteTodo)="deleteTodo($event)"
+  >
+</app-todo-item>
+</div>
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>

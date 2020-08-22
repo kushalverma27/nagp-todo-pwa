@@ -1,0 +1,24 @@
+
+<div [ngClass]="setClasses()">
+ 
+
+  <table>
+    <tr>
+      <td class="todo-text">
+    <input class="fa fa-circle-thin co"
+      (change)="onToggle(todo)"
+      type="checkbox"
+      id="{{ todo.id }}"
+      [checked]="todo.completed"
+    />
+    <label  for="{{ todo.id }}">
+      {{ todo.title }}
+    </label>
+      </td>
+      <td>
+    <button (click)="onDelete(todo)" class="fa fa-trash-o de"></button>
+      </td>
+  </tr>
+  </table>
+</div>
+

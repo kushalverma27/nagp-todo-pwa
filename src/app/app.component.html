@@ -1,0 +1,21 @@
+<head>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="manifest" type="text/css" href="../assets/style/addtohomescreen.css">
+  <script type="text/javascript" src="../assets/js/addtohomescreen.min.js">
+  </script>
+</head>
+<div class="container">
+
+  <app-header></app-header>
+  <script>
+      if(
+        (("Standalone" in window.navigator) && !window.navigator.standalone)
+        ||
+        (!window.matchMedia('(display-mode:standalone)').matches )
+      ) {
+        addToHomescreen();
+      }
+      </script>
+  <router-outlet></router-outlet>
+</div>

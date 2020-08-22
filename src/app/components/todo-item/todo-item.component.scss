@@ -1,0 +1,41 @@
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-circle-thin:before{
+}
+
+.del {
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.fa-trash-o:before {
+    content: "\f014";
+        
+  }
+
+.todo {
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px #ccc dotted;
+}
+
+.is-complete {
+  text-decoration: line-through;
+}
+.todo-text {
+  width: 400px;
+}
+
+
