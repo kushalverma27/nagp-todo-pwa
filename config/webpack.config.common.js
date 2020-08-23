@@ -12,7 +12,8 @@ module.exports = {
     entry: {
         vendor: './src/vendor.ts',
         polyfills: './src/polyfills.ts',
-        main: isDev ? './src/main.ts' : './src/main.aot.ts'
+        main: isDev ? './src/main.ts' : './src/main.ts',
+        ngswConfigPath: "./src/ngsw-config.json"
     },
 
     resolve: {
@@ -44,7 +45,7 @@ module.exports = {
                 include: helpers.root('src', 'app')
             },
             {
-                test: /\.(gif|png|jpg|svg|ico|ttf|eot|woff|woff2|manifest)$/i,
+                test: /\.(gif|png|jpg|svg|ico|ttf|eot|woff|woff2|webmanifest)$/i,
                 use: [
                   'file-loader',
                   {
@@ -67,7 +68,8 @@ module.exports = {
             template: 'src/index.html'
         }),
         new CopyWebpackPlugin([
-            { from: __dirname + '/src/manifest.webmanifest', to: path.join(__dirname, '') }
+            {  context: './', from: 'src/assets', to:  'assets' },
+            {  context: './', from: 'src/assets/ngsw', to:  '' }
           ])
     ]
 };

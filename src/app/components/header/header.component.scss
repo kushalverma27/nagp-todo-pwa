@@ -1,32 +1,28 @@
-$backgroundval:#333;
-
-
 .header {
-  width: 380px;
-  height:200px;
-  background-image: url('https://www.befunky.com/images/wp/wp-2016-03-blur-background-featured-1.jpg?auto=webp&format=jpg&width=880');
-  background-size: 100% 200%;
-  background-repeat: no-repeat;
-  border-radius: 15px 15px 0 0;
-  position: relative;
+	width: 380px;
+	height: 200px;
+	background-image: url('../../../assets/img/bg2.jpg') ;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	border-radius: 15px 15px 0 0;
+	position: relative;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
 }
-
-.header a {
-  color: #fff;
-  text-decoration: none;
+.fa-refresh {
+	&:before {
+		content: "\f021";
+	}
 }
-.fa-refresh:before {
-  content: "\f021";
-
-}
-
 .fa {
-  display: inline-block;
-  margin-left: 90%;
-  margin-top: 10%;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	margin-left: 90%;
+	margin-top: 10%;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }

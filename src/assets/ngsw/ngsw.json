@@ -1,0 +1,104 @@
+{
+  "configVersion": 1,
+  "timestamp": 1598164188754,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.f79f4d5f4f62088fdfce.js",
+        "/polyfills-es5.a803f2f5538d6be2fa37.js",
+        "/polyfills.d837f47e590164417af1.js",
+        "/runtime.7d9d4678f9511567f211.js",
+        "/styles.47156995360ca5c3cfaa.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/fonts/FontAwesome.otf",
+        "/assets/fonts/fontawesome-webfont.eot",
+        "/assets/fonts/fontawesome-webfont.svg",
+        "/assets/fonts/fontawesome-webfont.ttf",
+        "/assets/fonts/fontawesome-webfont.woff",
+        "/assets/fonts/fontawesome-webfont.woff2",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/js/addtohomescreen.js",
+        "/assets/js/addtohomescreen.min.js",
+        "/assets/style/addtohomescreen.css",
+        "/bg2.badf9de8f248abb427d1.jpg",
+        "/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/fontawesome-webfont.acf3dcb7ff752b5296ca.svg",
+        "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/fonts/FontAwesome.otf": "048707bc52ac4b6563aaa383bfe8660a0ddc908c",
+    "/assets/fonts/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/assets/fonts/fontawesome-webfont.svg": "b5483b11f8ba213e733b5b8af9927a04fec996f6",
+    "/assets/fonts/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/assets/fonts/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/assets/fonts/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/assets/icons/icon-128x128.png": "9bb999eb984f85658541fec5d77f8214faeaea07",
+    "/assets/icons/icon-144x144.png": "07830b8efb92e58d77dd36f9319fcc6d47085d20",
+    "/assets/icons/icon-152x152.png": "3eb2f060e4ec6a9cb90deaee44091be8a73a90e1",
+    "/assets/icons/icon-192x192.png": "2b33d35fbce62fb353009c780e372f7d0ee5c2dc",
+    "/assets/icons/icon-384x384.png": "31b44b7afb91e9b6530cc2b8c23671f89781fba9",
+    "/assets/icons/icon-512x512.png": "2444bf2f11f66fd5a78bf21d9421ee9d1b215d0c",
+    "/assets/icons/icon-72x72.png": "bf7f611596e2dc1842522f0533121d2ccb12af83",
+    "/assets/icons/icon-96x96.png": "3288a85cadd93242591ef8dcb970da802ce98052",
+    "/assets/js/addtohomescreen.js": "8d956df3adc323b04b3c3cc5bfe7b5e494ee8d42",
+    "/assets/js/addtohomescreen.min.js": "509514765aa8b9ce00f5d5bb045d75a428e4a791",
+    "/assets/style/addtohomescreen.css": "6dd7bd2f673f404f3329527ea8089d27f2b38585",
+    "/bg2.badf9de8f248abb427d1.jpg": "561ee3892285493832de7818d760bf54545496a8",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/fontawesome-webfont.acf3dcb7ff752b5296ca.svg": "b5483b11f8ba213e733b5b8af9927a04fec996f6",
+    "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/index.html": "7d1863be4b4115f08217225e9dd9b0ec2826cbfc",
+    "/main.f79f4d5f4f62088fdfce.js": "f0123ea534914936b5af086a387c6befd8b1450e",
+    "/polyfills-es5.a803f2f5538d6be2fa37.js": "3f450b45656240cccc0889bd3f084c5b10019622",
+    "/polyfills.d837f47e590164417af1.js": "9788c14a1bb9ec8c80d30553f61d55886c66a823",
+    "/runtime.7d9d4678f9511567f211.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.47156995360ca5c3cfaa.css": "f9830d0cfbd36b07ed2e2f6feea0a1911219b300"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
