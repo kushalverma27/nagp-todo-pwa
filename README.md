@@ -1,6 +1,4 @@
-# Angular Crash Course (TodoList)
-
-This is the code for the crash course on YouTube
+# NAGP Todolist (TodoList)
 
 ## Quick Start
 
